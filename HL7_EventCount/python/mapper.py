@@ -1,5 +1,10 @@
 #!/usr/bin/python
-
+"""
+Author: Jayant Singh
+Website: http://www.j4jayant.com
+Description:
+This Hadoop Mapper code extends wordcount example & extracts different trigger events(MSH_9) present in HL7 file and pass them to Reducer job
+"""
 import sys
 
 strDelim = "|";

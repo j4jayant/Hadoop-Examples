@@ -1,4 +1,12 @@
 #!/usr/bin/python
+
+"""
+Author: Jayant Singh
+Website: http://www.j4jayant.com
+Description:
+This Hadoop Reducer code extends wordcount example & counts HL7 trigger events received from Mapper
+"""
+
 import sys
  
 # maps words to their counts

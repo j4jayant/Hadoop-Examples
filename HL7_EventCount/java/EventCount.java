@@ -1,3 +1,10 @@
+/*
+Author: Jayant Singh
+Website: http://www.j4jayant.com
+Description:
+This Hadoop MapReduce code extends wordcount example & counts different trigger events(MSH_9) present in HL7 file
+*/
+
 package jayant.hadoop.mapreduce.HL7Test;
 
 import org.apache.hadoop.fs.Path;
@@ -62,7 +69,7 @@ public class EventCount {
  	     JobClient.runJob(conf);
  	   }
  	   
- 	   
+ 	  //this function is copied from http://stackoverflow.com/questions/2708591/java-stringtokenizer-empty-null-tokens
  	  public static String[] splitTokens(String line, String delim){
  			String s = line;
  			int i=0;
